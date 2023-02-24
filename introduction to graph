@@ -1,0 +1,63 @@
+ // graph is a type of data structure which has two components i.e., nodes and edges
+  
+//graph is like a network where one or more node is connected with one another with the help of edges
+
+
+On the basis of direction there are two types of graph
+
+1. Undirected GRAPH         2. Directed GRAPH
+
+
+In UNDIRECTED GRAPH if there is an edge says u-v, then it means u->v && v->u.   Notation: u-v
+
+In DIRECTED GRAPH if there is an edge says u->v,then it means u->v only.   Notation: u->v
+
+
+//NOTE: It is not necessary that graph should be enclosed it can be an open network also.
+
+
+
+Cycles in  a Graph:
+
+If the graph starts from a node and ends at the same node, then it means there is a cycle in a graph.
+
+
+Path:
+It contains a lot of nodes and each  of them are reachable.
+
+A node can't appear twice in the path.
+
+
+
+Degrees in  a Graph:
+
+1. DIRECTED
+    
+    Here there are two types of degrees:
+
+a. Indegree                     b. Outdegree
+
+
+Indegree means that the total no. of edges going inside from a particular node.
+
+Outdegree means that the total no. of edges coming out from a particular node.
+
+2. UNDIRECTED
+
+total no. of edges going inside or outside from a particular node.
+
+
+EDGE WEIGHT:
+
+A graph where edges are given some value.
+
+If No value is given to edge, we consider it as a unit weight.
+
+
+
+
+
+
+
+
+      
